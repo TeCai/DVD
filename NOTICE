@@ -1,0 +1,22 @@
+DVD: Discrete Voxel Diffusion for 3D Generation and Editing
+Copyright 2026 Zhengrui Xiang
+
+This project includes code and/or components adapted from the following projects:
+
+TRELLIS
+Copyright Microsoft Corporation and contributors.
+Licensed under the MIT License.
+Source: https://github.com/microsoft/TRELLIS
+
+DUO: The Diffusion Duality
+Subham Sekhar Sahoo, Justin Deschenaux, Aaron Gokaslan, Guanghan Wang, Justin Chiu, Volodymyr Kuleshov and contributors.
+
+Licensed under the Apache License, Version 2.0.
+Source: https://github.com/s-sahoo/duo
+
+Portions adapted from DUO were modified for discrete voxel diffusion training,
+sampling, evaluation, and related experiments.
+
+This project may also depend on third-party packages with separate license terms,
+including nvdiffrast and nvdiffrec. Please refer to the corresponding upstream repositories
+and license files for details.
