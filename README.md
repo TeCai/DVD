@@ -1,6 +1,8 @@
 # DVD: Discrete Voxel Diffusion for 3D Generation and Editing
 <a href="https://arxiv.org/abs/2605.07971"><img src="https://img.shields.io/badge/Paper-Arxiv-b31b1b.svg" alt="Paper"></a>
 <a href="https://huggingface.co/Zhengrui/dvd"><img src="https://img.shields.io/badge/Hugging%20Face-Model-yellow" alt="Hugging Face"></a>
+<a href="https://huggingface.co/spaces/Zhengrui/dvd-image"><img src="https://img.shields.io/badge/Hugging%20Face-Space%20Image-blue" alt="Hugging Face Space Image"></a>
+<a href="https://huggingface.co/spaces/Zhengrui/dvd-text"><img src="https://img.shields.io/badge/Hugging%20Face-Space%20Text-purple" alt="Hugging Face Space Text"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
 
 **TL;DR**: A discrete diffusion based pipeline for generating, assessing and editing voxels, without thresholding artifacts.
@@ -45,6 +47,12 @@ Hugging Face model repository with `from_pretrained`.
 | TRELLIS text stage 2 | https://huggingface.co/microsoft/TRELLIS-text-large | loaded by `TrellisTextTo3DPipeline` |
 
 The DVD pipelines expect the default filenames above. 
+
+
+### Try demos in Huggingface spaces:
+
+- [DVD Image Space](https://huggingface.co/spaces/Zhengrui/dvd-image): image-conditioned voxel generation and editing.
+- [DVD Text Space](https://huggingface.co/spaces/Zhengrui/dvd-text): text-conditioned voxel generation and editing.
 
 ## 🚀 Quick Start 
 
